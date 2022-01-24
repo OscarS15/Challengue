@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#img {
+    display: flex;
+    position: row;
+   }
+
+#img-div {
+  background-image: url("./assets/fondo-rojo.jpg");
+  max-width: 100%;
+  height: auto;
+  padding: 17%;
+  width: 27%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+
+#img-div2 {
+    background-image: url("./assets/fondo-cel.jpg");
+    max-width: 100%;
+    height: auto;
+    padding: 19%;
+    padding-bottom: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#logo {
+    position: relative;
+    right: 150px;
+    bottom: 200px;
+} 
+
+#parte-2 {
+    background-color: rgb(39, 33, 33);
+}
+
+#iconos {
+    display: flex;
+     position: row;
+}
